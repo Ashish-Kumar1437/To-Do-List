@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ToDo';
+  i: number = 2
+
+  theme(num: number) {
+    this.i = num
+  }
 }
